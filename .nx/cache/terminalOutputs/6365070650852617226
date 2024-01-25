@@ -1,0 +1,17 @@
+asset [1m[32m326.js[39m[22m 353 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (id hint: vendors)
+asset [1m[32mmain.js[39m[22m 3.39 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m (name: main)
+asset [1m[32m293.js[39m[22m 1.97 KiB [1m[33m[compared for emit][39m[22m [1m[32m[minimized][39m[22m
+runtime modules 5.32 KiB 7 modules
+orphan modules 148 bytes [1m[33m[orphan][39m[22m 1 module
+cacheable modules 132 KiB
+  modules by path [1m./node_modules/.pnpm/[39m[22m 131 KiB
+    modules by path [1m./node_modules/.pnpm/react@16.14.0/node_modules/react/[39m[22m 6.7 KiB 2 modules
+    modules by path [1m./node_modules/.pnpm/react-dom@16.14.0_react@16.14.0/node_modules/react-dom/[39m[22m 117 KiB 2 modules
+    modules by path [1m./node_modules/.pnpm/scheduler@0.19.1/node_modules/scheduler/[39m[22m 5.12 KiB
+      [1m./node_modules/.pnpm/scheduler@0.19.1/node_modules/scheduler/index.js[39m[22m 198 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m./node_modules/.pnpm/scheduler@0.19.1/node_modules/scheduler/cjs/scheduler.pro...(truncated)[39m[22m 4.92 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./node_modules/.pnpm/object-assign@4.1.1/node_modules/object-assign/index.js[39m[22m 2.06 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  modules by path [1m./src/*.js[39m[22m 351 bytes
+    [1m./src/index.js[39m[22m 22 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./src/bootstrap.js + 1 modules[39m[22m 329 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.89.0 compiled [1m[32msuccessfully[39m[22m in 609 ms

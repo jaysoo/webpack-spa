@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build",
+    "startTime": "2024-01-26T14:56:54.194Z",
+    "endTime": "2024-01-26T14:56:55.608Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "demo:build",
+      "target": "build",
+      "projectName": "demo",
+      "hash": "6365070650852617226",
+      "startTime": "2024-01-26T14:56:54.199Z",
+      "endTime": "2024-01-26T14:56:55.607Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

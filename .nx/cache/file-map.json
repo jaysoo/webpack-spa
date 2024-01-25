@@ -1,0 +1,123 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.1.26-beta.1",
+  "deps": {
+    "@babel/preset-env": "7.23.8",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "serve": "14.2.1",
+    "@babel/core": "7.23.7",
+    "@babel/preset-react": "7.23.3",
+    "@nx/web": "18.1.26-beta.1",
+    "@nx/webpack": "18.1.26-beta.1",
+    "babel-loader": "8.2.5",
+    "npm-run-all": "4.1.5",
+    "nx": "18.1.26-beta.1",
+    "webpack": "5.89.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.15.1"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/webpack/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "demo": [
+        {
+          "file": ".gitignore",
+          "hash": "17636423898541758332"
+        },
+        {
+          "file": "README.md",
+          "hash": "13486077027598526612"
+        },
+        {
+          "file": "index.html",
+          "hash": "956611603245202896"
+        },
+        {
+          "file": "nx.json",
+          "hash": "13775034274302170623"
+        },
+        {
+          "file": "package.json",
+          "hash": "461124673066084468",
+          "deps": [
+            "npm:@babel/preset-env",
+            "npm:react",
+            "npm:react-dom",
+            "npm:serve",
+            "npm:@babel/core",
+            "npm:@babel/preset-react",
+            "npm:@nx/web",
+            "npm:@nx/webpack",
+            "npm:babel-loader",
+            "npm:npm-run-all",
+            "npm:nx",
+            "npm:webpack",
+            "npm:webpack-cli",
+            "npm:webpack-dev-server"
+          ]
+        },
+        {
+          "file": "pnpm-lock.yaml",
+          "hash": "10166444651818040540"
+        },
+        {
+          "file": "src/App.js",
+          "hash": "1463889933888345730",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "src/Button.js",
+          "hash": "9046669893720186147",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "src/bootstrap.js",
+          "hash": "11420956082184569128",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "src/index.js",
+          "hash": "10018980967429810802"
+        },
+        {
+          "file": "webpack.config.js",
+          "hash": "16111047940270360280",
+          "deps": [
+            "npm:path"
+          ]
+        },
+        {
+          "file": "foo/293.js",
+          "hash": "5245655880459757623"
+        },
+        {
+          "file": "foo/main.js",
+          "hash": "8813055477784413735"
+        },
+        {
+          "file": "foo/326.js",
+          "hash": "11412175221238289766"
+        }
+      ]
+    }
+  }
+}
